@@ -1,0 +1,16 @@
+# Local datasets, weights and experimental outputs (not included in source release)
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+data/
+outputs/
+checkpoints/
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+.env
+.env.*
+.DS_Store
