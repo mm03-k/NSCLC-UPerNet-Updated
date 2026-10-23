@@ -1,0 +1,654 @@
+{
+  "pixel_accuracy": 0.8064293045617384,
+  "macro_f1_dice": 0.6974251571909651,
+  "mean_iou": 0.5618391780092433,
+  "frequency_weighted_iou": 0.679814157792925,
+  "per_class": [
+    {
+      "class_id": 0,
+      "class_name": "Background",
+      "support_pixels": 22654809,
+      "precision": 0.933450295486234,
+      "recall": 0.9346168400713508,
+      "f1_dice": 0.934033203545023,
+      "iou": 0.8762310483321638
+    },
+    {
+      "class_id": 1,
+      "class_name": "Tumor epithelium",
+      "support_pixels": 44673082,
+      "precision": 0.8607984489944582,
+      "recall": 0.8987222999299668,
+      "f1_dice": 0.8793516783810047,
+      "iou": 0.7846812076696902
+    },
+    {
+      "class_id": 2,
+      "class_name": "Reactive epithelium",
+      "support_pixels": 1636603,
+      "precision": 0.6423095015025289,
+      "recall": 0.5047748293263546,
+      "f1_dice": 0.5652970061257001,
+      "iou": 0.39401674669902303
+    },
+    {
+      "class_id": 3,
+      "class_name": "Stroma",
+      "support_pixels": 55088638,
+      "precision": 0.6981212640849063,
+      "recall": 0.8850181048222684,
+      "f1_dice": 0.7805376711755273,
+      "iou": 0.6400670629390772
+    },
+    {
+      "class_id": 4,
+      "class_name": "Inflammation",
+      "support_pixels": 5666773,
+      "precision": 0.752032437137645,
+      "recall": 0.6290410785821137,
+      "f1_dice": 0.6850602665264504,
+      "iou": 0.5209822542336541
+    },
+    {
+      "class_id": 5,
+      "class_name": "Alveolar tissue",
+      "support_pixels": 4259208,
+      "precision": 0.8171987165841569,
+      "recall": 0.4713928035446966,
+      "f1_dice": 0.5978955907225172,
+      "iou": 0.42642729511892646
+    },
+    {
+      "class_id": 6,
+      "class_name": "Fatty tissue",
+      "support_pixels": 1630310,
+      "precision": 0.7951480660509256,
+      "recall": 0.9104918696444234,
+      "f1_dice": 0.8489199087704369,
+      "iou": 0.7374985591694456
+    },
+    {
+      "class_id": 7,
+      "class_name": "Necrotic tissue",
+      "support_pixels": 24369226,
+      "precision": 0.9248884714534356,
+      "recall": 0.6656943064174463,
+      "f1_dice": 0.7741728353702404,
+      "iou": 0.6315513782924415
+    },
+    {
+      "class_id": 8,
+      "class_name": "Erythrocytes",
+      "support_pixels": 3343158,
+      "precision": 0.7723251841369693,
+      "recall": 0.7455723002023835,
+      "f1_dice": 0.7587129829019388,
+      "iou": 0.611230901839039
+    },
+    {
+      "class_id": 9,
+      "class_name": "Bronchial epithelium",
+      "support_pixels": 1987188,
+      "precision": 0.9529958153690083,
+      "recall": 0.6051022852392426,
+      "f1_dice": 0.7402100618415561,
+      "iou": 0.5875662595968915
+    },
+    {
+      "class_id": 10,
+      "class_name": "Mucus/Plasma/Fluids",
+      "support_pixels": 3668394,
+      "precision": 0.8221341866016557,
+      "recall": 0.317704150644669,
+      "f1_dice": 0.4583026117567393,
+      "iou": 0.29727144590869925
+    },
+    {
+      "class_id": 11,
+      "class_name": "Cartilage/Bone",
+      "support_pixels": 1161715,
+      "precision": 0.3856791440391097,
+      "recall": 0.5440249975252106,
+      "f1_dice": 0.45136745336717626,
+      "iou": 0.29146194450619034
+    },
+    {
+      "class_id": 12,
+      "class_name": "Macrophages",
+      "support_pixels": 7234931,
+      "precision": 0.8391646144953242,
+      "recall": 0.7323999358114127,
+      "f1_dice": 0.7821557309518419,
+      "iou": 0.64224609897221
+    },
+    {
+      "class_id": 13,
+      "class_name": "Muscle",
+      "support_pixels": 4952838,
+      "precision": 0.9619250650349458,
+      "recall": 0.2535408991774009,
+      "f1_dice": 0.4013067467311358,
+      "iou": 0.25102173034794506
+    },
+    {
+      "class_id": 14,
+      "class_name": "Liver",
+      "support_pixels": 5688113,
+      "precision": 0.9516029694133402,
+      "recall": 0.9748849926153014,
+      "f1_dice": 0.9631032968743053,
+      "iou": 0.9288324420080213
+    },
+    {
+      "class_id": 15,
+      "class_name": "Keratinization",
+      "support_pixels": 544599,
+      "precision": 0.5531442606058024,
+      "recall": 0.5243748152310231,
+      "f1_dice": 0.5383754700138471,
+      "iou": 0.36834047251447505
+    }
+  ],
+  "til_grouped": {
+    "pixel_accuracy": 0.8341775359762273,
+    "macro_f1_dice": 0.8209045955386944,
+    "mean_iou": 0.6983376222627952,
+    "frequency_weighted_iou": 0.7171688017070982,
+    "per_class": [
+      {
+        "class_id": 0,
+        "class_name": "Tumor",
+        "support_pixels": 44673082,
+        "precision": 0.8607984489944582,
+        "recall": 0.8987222999299668,
+        "f1_dice": 0.8793516783810047,
+        "iou": 0.7846812076696902
+      },
+      {
+        "class_id": 1,
+        "class_name": "Stroma + inflammation",
+        "support_pixels": 60755411,
+        "precision": 0.7354595514946591,
+        "recall": 0.9027689731207645,
+        "f1_dice": 0.8105707526128623,
+        "iou": 0.6814787465445905
+      },
+      {
+        "class_id": 2,
+        "class_name": "Macrophages",
+        "support_pixels": 7234931,
+        "precision": 0.8391646144953242,
+        "recall": 0.7323999358114127,
+        "f1_dice": 0.7821557309518419,
+        "iou": 0.64224609897221
+      },
+      {
+        "class_id": 3,
+        "class_name": "Necrosis",
+        "support_pixels": 24369226,
+        "precision": 0.9248884714534356,
+        "recall": 0.6656943064174463,
+        "f1_dice": 0.7741728353702404,
+        "iou": 0.6315513782924415
+      },
+      {
+        "class_id": 4,
+        "class_name": "Rest",
+        "support_pixels": 51526935,
+        "precision": 0.937606916104925,
+        "recall": 0.7913153965008786,
+        "f1_dice": 0.8582719803775226,
+        "iou": 0.7517306798350435
+      }
+    ]
+  },
+  "method": "official nnU-Net with unanimous high-confidence five-fold UPerNet corrections",
+  "confidence_threshold": 0.9,
+  "required_fold_votes": 5,
+  "test_rois": 139,
+  "tile_size": 512,
+  "stride": 256,
+  "fold_checkpoints": [
+    "outputs\\upernet_swin_tiny_hybrid_fold0\\best.pt",
+    "outputs\\upernet_swin_tiny_hybrid_fold1\\best.pt",
+    "outputs\\upernet_swin_tiny_hybrid_fold2\\best.pt",
+    "outputs\\upernet_swin_tiny_hybrid_fold3\\best.pt",
+    "outputs\\upernet_swin_tiny_hybrid_fold4\\best.pt"
+  ],
+  "checkpoint_epochs": [
+    12,
+    25,
+    21,
+    12,
+    13
+  ],
+  "checkpoint_validation_scores": [
+    0.7004592920061468,
+    0.8234907895824819,
+    0.799242969761847,
+    0.7431307281250674,
+    0.7822731617269009
+  ],
+  "execution_mode": "all_models_gpu_resident",
+  "peak_allocated_vram_gib": 3.5204038619995117,
+  "valid_pixels": 188559585,
+  "disagreement_pixels": 24682236,
+  "override_pixels": 2261929,
+  "override_fraction": 0.01199583145030787,
+  "official_baseline_recomputed": {
+    "pixel_accuracy": 0.8046690917356442,
+    "macro_f1_dice": 0.6896181293909096,
+    "mean_iou": 0.5531487093960529,
+    "frequency_weighted_iou": 0.6772315681830418,
+    "per_class": [
+      {
+        "class_id": 0,
+        "class_name": "Background",
+        "support_pixels": 22654809,
+        "precision": 0.934279129171217,
+        "recall": 0.9339466953793343,
+        "f1_dice": 0.9341128826984909,
+        "iou": 0.8763713038050135
+      },
+      {
+        "class_id": 1,
+        "class_name": "Tumor epithelium",
+        "support_pixels": 44673082,
+        "precision": 0.8576222512435279,
+        "recall": 0.9006024030309796,
+        "f1_dice": 0.878586997952732,
+        "iou": 0.7834642512158951
+      },
+      {
+        "class_id": 2,
+        "class_name": "Reactive epithelium",
+        "support_pixels": 1636603,
+        "precision": 0.6452882545706236,
+        "recall": 0.49787883805663313,
+        "f1_dice": 0.562079451847851,
+        "iou": 0.3908974334987918
+      },
+      {
+        "class_id": 3,
+        "class_name": "Stroma",
+        "support_pixels": 55088638,
+        "precision": 0.6972952314033205,
+        "recall": 0.8850012047856401,
+        "f1_dice": 0.7800145481835926,
+        "iou": 0.639363811283362
+      },
+      {
+        "class_id": 4,
+        "class_name": "Inflammation",
+        "support_pixels": 5666773,
+        "precision": 0.7572822728010784,
+        "recall": 0.6222022657339548,
+        "f1_dice": 0.6831287089848361,
+        "iou": 0.5187513112676475
+      },
+      {
+        "class_id": 5,
+        "class_name": "Alveolar tissue",
+        "support_pixels": 4259208,
+        "precision": 0.8138865330240792,
+        "recall": 0.43327280564837406,
+        "f1_dice": 0.5655009599946311,
+        "iou": 0.3942149448859267
+      },
+      {
+        "class_id": 6,
+        "class_name": "Fatty tissue",
+        "support_pixels": 1630310,
+        "precision": 0.7670778187898405,
+        "recall": 0.9072188724843742,
+        "f1_dice": 0.8312833412346714,
+        "iou": 0.7112787646176508
+      },
+      {
+        "class_id": 7,
+        "class_name": "Necrotic tissue",
+        "support_pixels": 24369226,
+        "precision": 0.9212626287090326,
+        "recall": 0.6704109519112342,
+        "f1_dice": 0.7760693692388655,
+        "iou": 0.6340795382792616
+      },
+      {
+        "class_id": 8,
+        "class_name": "Erythrocytes",
+        "support_pixels": 3343158,
+        "precision": 0.7785683640867856,
+        "recall": 0.7214053299305626,
+        "f1_dice": 0.7488976237486336,
+        "iou": 0.5985902017007824
+      },
+      {
+        "class_id": 9,
+        "class_name": "Bronchial epithelium",
+        "support_pixels": 1987188,
+        "precision": 0.9525619240968183,
+        "recall": 0.5938280625688158,
+        "f1_dice": 0.7315851845147076,
+        "iou": 0.5767712388591147
+      },
+      {
+        "class_id": 10,
+        "class_name": "Mucus/Plasma/Fluids",
+        "support_pixels": 3668394,
+        "precision": 0.8035216593751436,
+        "recall": 0.31452128642670335,
+        "f1_dice": 0.45208400433516155,
+        "iou": 0.2920597794720695
+      },
+      {
+        "class_id": 11,
+        "class_name": "Cartilage/Bone",
+        "support_pixels": 1161715,
+        "precision": 0.38608036456042616,
+        "recall": 0.5440482390259229,
+        "f1_dice": 0.451650108709051,
+        "iou": 0.2916977042782521
+      },
+      {
+        "class_id": 12,
+        "class_name": "Macrophages",
+        "support_pixels": 7234931,
+        "precision": 0.8420223912224525,
+        "recall": 0.7117942106151393,
+        "f1_dice": 0.7714509712042613,
+        "iou": 0.627936657896723
+      },
+      {
+        "class_id": 13,
+        "class_name": "Muscle",
+        "support_pixels": 4952838,
+        "precision": 0.9588792556732463,
+        "recall": 0.24574577242381035,
+        "f1_dice": 0.3912263448798354,
+        "iou": 0.24318296339245649
+      },
+      {
+        "class_id": 14,
+        "class_name": "Liver",
+        "support_pixels": 5688113,
+        "precision": 0.9470782736417824,
+        "recall": 0.9748818281212065,
+        "f1_dice": 0.9607789443025958,
+        "iou": 0.9245183582792526
+      },
+      {
+        "class_id": 15,
+        "class_name": "Keratinization",
+        "support_pixels": 544599,
+        "precision": 0.49760803168097517,
+        "recall": 0.5345988516321183,
+        "f1_dice": 0.5154406284246362,
+        "iou": 0.3472010876046462
+      }
+    ],
+    "til_grouped": {
+      "pixel_accuracy": 0.8329161893308155,
+      "macro_f1_dice": 0.818275638613212,
+      "mean_iou": 0.6946501684920874,
+      "frequency_weighted_iou": 0.7151569065537506,
+      "per_class": [
+        {
+          "class_id": 0,
+          "class_name": "Tumor",
+          "support_pixels": 44673082,
+          "precision": 0.8576222512435279,
+          "recall": 0.9006024030309796,
+          "f1_dice": 0.878586997952732,
+          "iou": 0.7834642512158951
+        },
+        {
+          "class_id": 1,
+          "class_name": "Stroma + inflammation",
+          "support_pixels": 60755411,
+          "precision": 0.735274951133436,
+          "recall": 0.9025104282481111,
+          "f1_dice": 0.8103544205262466,
+          "iou": 0.681172976647979
+        },
+        {
+          "class_id": 2,
+          "class_name": "Macrophages",
+          "support_pixels": 7234931,
+          "precision": 0.8420223912224525,
+          "recall": 0.7117942106151393,
+          "f1_dice": 0.7714509712042613,
+          "iou": 0.627936657896723
+        },
+        {
+          "class_id": 3,
+          "class_name": "Necrosis",
+          "support_pixels": 24369226,
+          "precision": 0.9212626287090326,
+          "recall": 0.6704109519112342,
+          "f1_dice": 0.7760693692388655,
+          "iou": 0.6340795382792616
+        },
+        {
+          "class_id": 4,
+          "class_name": "Rest",
+          "support_pixels": 51526935,
+          "precision": 0.9370269644492146,
+          "recall": 0.786036972701753,
+          "f1_dice": 0.854916434143954,
+          "iou": 0.7465974184205784
+        }
+      ]
+    }
+  },
+  "upernet_ensemble_recomputed": {
+    "pixel_accuracy": 0.7782103094891729,
+    "macro_f1_dice": 0.6783137019062935,
+    "mean_iou": 0.5403940538779619,
+    "frequency_weighted_iou": 0.6449727036759699,
+    "per_class": [
+      {
+        "class_id": 0,
+        "class_name": "Background",
+        "support_pixels": 22654809,
+        "precision": 0.9339704593483519,
+        "recall": 0.9267555952469076,
+        "f1_dice": 0.9303490396760038,
+        "iou": 0.8697688070080376
+      },
+      {
+        "class_id": 1,
+        "class_name": "Tumor epithelium",
+        "support_pixels": 44673082,
+        "precision": 0.8479976762833087,
+        "recall": 0.8649270941279583,
+        "f1_dice": 0.8563787256096287,
+        "iou": 0.7488307053977613
+      },
+      {
+        "class_id": 2,
+        "class_name": "Reactive epithelium",
+        "support_pixels": 1636603,
+        "precision": 0.42064832541374564,
+        "recall": 0.5152672945118639,
+        "f1_dice": 0.4631749272313988,
+        "iou": 0.30138428597926625
+      },
+      {
+        "class_id": 3,
+        "class_name": "Stroma",
+        "support_pixels": 55088638,
+        "precision": 0.685776151007794,
+        "recall": 0.8048321869928968,
+        "f1_dice": 0.7405496203563007,
+        "iou": 0.5879942809384863
+      },
+      {
+        "class_id": 4,
+        "class_name": "Inflammation",
+        "support_pixels": 5666773,
+        "precision": 0.6034337736364509,
+        "recall": 0.7211093509480616,
+        "f1_dice": 0.6570442725050836,
+        "iou": 0.4892523700172169
+      },
+      {
+        "class_id": 5,
+        "class_name": "Alveolar tissue",
+        "support_pixels": 4259208,
+        "precision": 0.7540248773740318,
+        "recall": 0.6112589476729007,
+        "f1_dice": 0.6751774899947925,
+        "iou": 0.5096361851461435
+      },
+      {
+        "class_id": 6,
+        "class_name": "Fatty tissue",
+        "support_pixels": 1630310,
+        "precision": 0.8989854310572699,
+        "recall": 0.9324858462500997,
+        "f1_dice": 0.9154292516980177,
+        "iou": 0.8440475212255404
+      },
+      {
+        "class_id": 7,
+        "class_name": "Necrotic tissue",
+        "support_pixels": 24369226,
+        "precision": 0.855059388036304,
+        "recall": 0.6416872246988887,
+        "f1_dice": 0.7331644260868887,
+        "iou": 0.578736847294418
+      },
+      {
+        "class_id": 8,
+        "class_name": "Erythrocytes",
+        "support_pixels": 3343158,
+        "precision": 0.6697215541589939,
+        "recall": 0.7947979126323076,
+        "f1_dice": 0.7269186997652749,
+        "iou": 0.5709915773888509
+      },
+      {
+        "class_id": 9,
+        "class_name": "Bronchial epithelium",
+        "support_pixels": 1987188,
+        "precision": 0.8937797182125273,
+        "recall": 0.518073780638772,
+        "f1_dice": 0.6559375148333142,
+        "iou": 0.4880260568778297
+      },
+      {
+        "class_id": 10,
+        "class_name": "Mucus/Plasma/Fluids",
+        "support_pixels": 3668394,
+        "precision": 0.8802678652501589,
+        "recall": 0.2642679603117877,
+        "f1_dice": 0.40649945258542786,
+        "iou": 0.2550984078699982
+      },
+      {
+        "class_id": 11,
+        "class_name": "Cartilage/Bone",
+        "support_pixels": 1161715,
+        "precision": 0.4238603280870609,
+        "recall": 0.628255639291909,
+        "f1_dice": 0.5062039730395931,
+        "iou": 0.3388708792254741
+      },
+      {
+        "class_id": 12,
+        "class_name": "Macrophages",
+        "support_pixels": 7234931,
+        "precision": 0.7025280915033808,
+        "recall": 0.8103058619356563,
+        "f1_dice": 0.7525778085897492,
+        "iou": 0.6033064136360567
+      },
+      {
+        "class_id": 13,
+        "class_name": "Muscle",
+        "support_pixels": 4952838,
+        "precision": 0.9063598791724068,
+        "recall": 0.2895798328150446,
+        "f1_dice": 0.43892436993306155,
+        "iou": 0.2811679085107751
+      },
+      {
+        "class_id": 14,
+        "class_name": "Liver",
+        "support_pixels": 5688113,
+        "precision": 0.9702251781140677,
+        "recall": 0.9079225395135434,
+        "f1_dice": 0.9380404952662645,
+        "iou": 0.883310984161735
+      },
+      {
+        "class_id": 15,
+        "class_name": "Keratinization",
+        "support_pixels": 544599,
+        "precision": 0.4979874824880615,
+        "recall": 0.42164785466003424,
+        "f1_dice": 0.4566491633298963,
+        "iou": 0.29588163136980017
+      }
+    ],
+    "til_grouped": {
+      "pixel_accuracy": 0.8066597569145053,
+      "macro_f1_dice": 0.7921596239669444,
+      "mean_iou": 0.6585377579488629,
+      "frequency_weighted_iou": 0.6786484298128732,
+      "per_class": [
+        {
+          "class_id": 0,
+          "class_name": "Tumor",
+          "support_pixels": 44673082,
+          "precision": 0.8479976762833087,
+          "recall": 0.8649270941279583,
+          "f1_dice": 0.8563787256096287,
+          "iou": 0.7488307053977613
+        },
+        {
+          "class_id": 1,
+          "class_name": "Stroma + inflammation",
+          "support_pixels": 60755411,
+          "precision": 0.7198402123669365,
+          "recall": 0.8462469951853342,
+          "f1_dice": 0.777942139864853,
+          "iou": 0.6365837209858629
+        },
+        {
+          "class_id": 2,
+          "class_name": "Macrophages",
+          "support_pixels": 7234931,
+          "precision": 0.7025280915033808,
+          "recall": 0.8103058619356563,
+          "f1_dice": 0.7525778085897492,
+          "iou": 0.6033064136360567
+        },
+        {
+          "class_id": 3,
+          "class_name": "Necrosis",
+          "support_pixels": 24369226,
+          "precision": 0.855059388036304,
+          "recall": 0.6416872246988887,
+          "f1_dice": 0.7331644260868887,
+          "iou": 0.578736847294418
+        },
+        {
+          "class_id": 4,
+          "class_name": "Rest",
+          "support_pixels": 51526935,
+          "precision": 0.9023772777425362,
+          "recall": 0.7869759379245049,
+          "f1_dice": 0.8407350196836029,
+          "iou": 0.7252311024302157
+        }
+      ]
+    }
+  },
+  "change_vs_official": {
+    "pixel_accuracy": 0.0017602128260942873,
+    "macro_f1_dice": 0.007807027800055488,
+    "mean_iou": 0.00869046861319045,
+    "grouped_f1_dice": 0.002628956925482484
+  }
+}
